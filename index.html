@@ -130,7 +130,11 @@
   }
   @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
   </style>
-</head>
+<style id="ktis-v2">
+.intro{padding-top:83px}.applicant-row{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink);border-bottom:1px solid var(--line);margin:18px 0 45px}.applicant-row div{padding:23px 25px 25px 0}.applicant-row div+div{padding-left:30px;border-left:1px solid var(--line)}.applicant-row span,.applicant-row small{display:block;color:var(--muted);font-size:12px}.applicant-row span{font-weight:780;color:var(--blue);margin-bottom:10px}.applicant-row strong{display:block;font-size:29px;letter-spacing:-.05em}.applicant-row small{margin-top:8px}.intro-bio{display:flex;flex-wrap:wrap;gap:18px 36px;border-top:1px solid var(--line);padding-top:22px;margin-top:32px}.intro-bio div{display:grid;gap:8px}.intro-bio span{font-size:11px;color:var(--blue);font-weight:800}.intro-bio b{font-size:14px}.work-header{display:flex;justify-content:space-between;align-items:center;gap:30px;margin-top:41px}.work-header h3{font-size:36px;letter-spacing:-.055em;margin:10px 0}.work-header h3 small{font-size:.55em;color:var(--muted)}.work-header p{color:var(--muted);font-size:14px;margin:0}.work-header time{font-size:14px;font-weight:770;text-align:right;color:#3a4654}.work-header time small{display:block;margin-top:8px;color:var(--muted)}.work-desc{font-size:15px;line-height:1.95;color:#4a5664;max-width:1000px;margin:25px 0 38px}.work-summary{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink);margin-bottom:46px}.work-summary article{padding:22px 29px 23px 0;border-bottom:1px solid var(--line)}.work-summary article:nth-child(even){border-left:1px solid var(--line);padding-left:28px}.work-summary h4{font-size:18px;margin:9px 0 10px;letter-spacing:-.035em}.work-summary p{color:#546171;line-height:1.78;margin:0;font-size:14px}.subhead{font-size:21px;margin:36px 0 0;letter-spacing:-.04em}.details .career-card:last-child{border-bottom:0}.details .role-box{display:flex}.cert-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0 67px}.cert-card{display:block;position:relative;background:#fbfcfe;border:1px solid var(--line);min-height:187px;padding:25px 30px}.cert-card:hover{border-color:var(--blue)}.cert-card h4{font-size:21px;line-height:1.4;letter-spacing:-.035em;margin:15px 24px 9px 0}.cert-card p{font-size:13px;color:var(--muted);line-height:1.7;margin:0}.cert-arrow{position:absolute;top:24px;right:24px;color:var(--blue);font-size:22px}.software{margin-top:23px;border-top:2px solid var(--ink)}.software-row{display:grid;grid-template-columns:165px minmax(0,1fr) 95px;gap:15px;padding:15px 10px;border-bottom:1px solid var(--line);font-size:14px}.software-row strong{font-weight:750;color:#394656}.software-row>span:last-child{color:#677486}.software-head{font-size:12px;color:var(--blue);font-weight:800;background:#f9fbff}.software-head span:last-child{color:var(--blue)}
+@media(max-width:680px){.intro{padding-top:50px}.applicant-row{margin-bottom:33px}.applicant-row div{padding:16px 12px 20px 0}.applicant-row div+div{padding-left:18px}.applicant-row strong{font-size:23px}.work-header{align-items:flex-start}.work-header h3{font-size:26px}.work-header time{font-size:11px}.work-desc{font-size:14px}.work-summary{grid-template-columns:1fr}.work-summary article:nth-child(even){border-left:0;padding-left:0}.cert-grid{grid-template-columns:1fr;gap:12px}.cert-card{min-height:155px}.software-row{grid-template-columns:95px 1fr 55px;gap:8px;padding:13px 3px;font-size:12px}.software-head{font-size:10px}.details .role-box{display:block}}
+@media print{.work-summary article,.cert-card,.software-row{break-inside:avoid}.intro{padding-top:10px}.details .career-card{break-inside:avoid}}
+</style></head>
 <body>
   <a class="skip" href="#main">본문 바로가기</a>
   <header class="site-header">
@@ -140,98 +144,77 @@
       <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="site-nav">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
-      <nav class="site-nav" id="site-nav" aria-label="페이지 목차">
-        <a href="#strengths">핵심 역량</a><a href="#projects">주요 프로젝트</a><a href="#markets">운영 범위</a><a href="#skills">자격 · 도구</a>
-      </nav>
+      <nav class="site-nav" id="site-nav" aria-label="페이지 목차"><a href="#top">소개</a><a href="#career">경력사항</a><a href="#details">경력기술서</a><a href="#skills">자격 · 활용능력</a></nav>
     </div>
   </header>
   <main id="main">
-    <section class="hero shell" id="top">
-      <p class="eyebrow">CAREER DESCRIPTION · 2026</p>
-      <h1>MARKETING<br><em>&amp; OPERATIONS</em></h1>
-      <p class="hero-desc">데이터로 판매 성과를 살피고, 채널 운영을 개선하며,<br>협력사가 이어서 일할 수 있는 체계를 만들었습니다.</p>
-      <div class="hero-meta"><span><b>최동빈</b> · 글로벌 마케팅</span><span class="dot">/</span><span>㈜블랙홀릭 광고사업본부</span><span class="dot">/</span><span>2021.08 — 2025.11</span></div>
-      <div class="metric-grid" aria-label="핵심 경력 및 매출 성과">
-        <div class="metric"><span class="metric-label">EXPERIENCE</span><strong>4<small>년</small> 4<small>개월</small></strong><p>글로벌 마케팅 실무 경력</p></div>
-        <div class="metric"><span class="metric-label">MARKETS</span><strong>8<small>개 시장</small></strong><p>미국 · 동남아시아 6개국 · 대만</p></div>
-        <div class="metric"><span class="metric-label">ASIA SALES</span><strong>104<small>배</small></strong><p>동남아시아 · 대만 연매출 규모<br>2021년 대비 2025년</p></div>
-        <div class="metric"><span class="metric-label">US SALES</span><strong>17<small>배</small></strong><p>미국 Amazon 연매출 규모<br>2021년 대비 2024년</p></div>
-      </div>
-      <p class="disclaimer">※ 매출 지표는 담당 판매 채널의 해당 기간 연매출 규모 변화입니다. 회사 · 팀의 성과이며, 개인의 단독 성과를 의미하지 않습니다.</p>
-    </section>
-
-    <section class="section shell" id="strengths">
-      <header class="section-head"><span class="index">01</span><h2>kt is 마케팅 직무와 연결되는 경험</h2></header>
-      <p class="section-intro">해외 온라인 판매 채널에서 쌓은 B2C 마케팅, B2B 협업, 데이터 분석 경험을 통신상품 마케팅과 채널 운영에 연결하고자 합니다.</p>
-      <div class="strength-row"><span class="num">01</span><h3>고객 접점 · 판매 채널 운영</h3><div><p>Amazon · Shopee · Lazada를 중심으로 국가별 광고와 할인 행사를 운영하고, SNS 등 외부 고객 접점을 함께 관리했습니다.</p><div class="pill-row"><span class="pill">B2C 마케팅</span><span class="pill">채널 운영</span><span class="pill">판매 촉진</span></div></div></div>
-      <div class="strength-row"><span class="num">02</span><h3>데이터 기반 성과 개선</h3><div><p>매출 · 광고비 · 판매량 · 광고 성과를 일 단위로 점검하고, 성과가 높은 검색어와 상품을 발굴해 예산과 운영 방식을 조정했습니다.</p><div class="pill-row"><span class="pill">성과 분석</span><span class="pill">예산 배분</span><span class="pill">운영 개선</span></div></div></div>
-      <div class="strength-row"><span class="num">03</span><h3>B2B 협력사 실무 협업</h3><div><p>해외 계약 파트너의 광고 · SNS 운영 환경을 구축하고, 접근 권한 이관과 사용 방법 안내, 영문 정기회의를 통한 실무 조율을 수행했습니다.</p><div class="pill-row"><span class="pill">B2B 협업</span><span class="pill">업무 인수인계</span><span class="pill">이슈 조율</span></div></div></div>
-      <div class="strength-row"><span class="num">04</span><h3>기술을 활용한 문제 해결</h3><div><p>생성형 AI를 코드 작성 보조 도구로 사용하고, Python · Google Sheets · Apps Script를 연결해 광고용 상품 데이터의 수집과 가공을 자동화했습니다.</p><div class="pill-row"><span class="pill">생성형 AI 활용</span><span class="pill">업무 자동화</span><span class="pill">데이터 연동</span></div></div></div>
-    </section>
-
-    <section class="section shell projects" id="projects">
-      <header class="section-head"><span class="index">02</span><h2>주요 프로젝트</h2></header>
-      <p class="section-intro">실무를 대표하는 세 가지 사례입니다. 프로젝트의 수행 내용과 결과를 구분해 정리했습니다.</p>
-
-      <article class="project">
-        <div class="project-top"><span class="num">01</span><h3>해외 온라인 판매 채널 광고 운영 및 매출 확대</h3><span class="project-period">2021.11 — 2025.08</span></div>
-        <div class="project-meta"><span><b>구분</b> · 팀 프로젝트</span><span><b>기여도</b> · 70%</span><span><b>대상</b> · 동남아시아 6개국 · 대만</span></div>
-        <div class="role-box"><b>담당 역할</b><span>국가별 광고 운영 체계 구축 · 판매 성과 분석 · 예산 배분 및 운영 개선</span></div>
-        <div class="project-copy">
-          <div><h4>PROJECT &amp; ACTION</h4><p>각 국가의 온라인 쇼핑몰에서 광고 운영과 판매 성과 관리를 담당했습니다. 시장 및 상품별 데이터를 바탕으로 광고 집행 방식을 조정하고, 주요 할인 행사에서 판매 기회를 확대하는 것이 목표였습니다.</p><ul><li>국가 · 플랫폼 · 브랜드 · 상품별 매출, 광고비, 판매 수량 분석</li><li>자동광고로 효과적인 검색어와 상품을 발굴하고 별도 캠페인으로 확장</li><li>광고비 대비 매출 성과에 따라 예산 및 입찰가 조정</li><li>할인 행사별 예산 배분, SNS 연계 광고 운영</li><li>Google Sheets · Data Studio 기반 일일 성과 집계 및 공유</li></ul></div>
-          <div><h4>OUTCOME</h4><div class="result"><strong>약 104배</strong><br>동남아시아 · 대만 담당 채널 연매출 규모 성장에 기여<small>2021년 대비 2025년</small></div><div class="result"><strong>TOP 5 × 7</strong><br>주요 할인 행사 메이크업 카테고리 매출 상위 5위 달성에 기여<small>싱가포르 6회 · 대만 1회</small></div><div class="result">국가별 광고 운영 체계를 초기 구축하고 성과에 따른 예산 조정과 운영 안정화에 참여</div></div>
-        </div>
-      </article>
-
-      <article class="project">
-        <div class="project-top"><span class="num">02</span><h3>해외 B2B 협력사 마케팅 운영체계 구축 및 이관</h3><span class="project-period">2024.03 — 2025.08</span></div>
-        <div class="project-meta"><span><b>구분</b> · 팀 프로젝트</span><span><b>기여도</b> · 90%</span><span><b>대상</b> · 해외 B2B 파트너사</span></div>
-        <div class="role-box"><b>담당 역할</b><span>광고 · SNS 운영 환경 구축 · 권한 이관 · 협력사 업무 안내 및 조율</span></div>
-        <div class="project-copy">
-          <div><h4>PROJECT &amp; ACTION</h4><p>해외 B2B 계약 이후 기존 본사 중심의 광고 운영을 현지 협력사 중심으로 전환하는 과정에 참여했습니다. 협력사가 실제로 업무를 이어갈 수 있도록 시스템과 운영 절차를 정리했습니다.</p><ul><li>파트너사별 광고 계정 · SNS 채널의 운영 환경 점검</li><li>Meta Business 등 계정 및 운영 자산 공유 · 권한 이관</li><li>현지 담당자 대상 광고 시스템 사용법과 운영 절차 안내</li><li>본사와 협력사 간 요청사항 · 일정 · 권한 관련 이슈 조율</li><li>약 1시간 규모의 영문 정기회의 주관 및 진행 상황 공유</li></ul></div>
-          <div><h4>OUTCOME</h4><div class="result">현지 협력사가 광고 계정과 SNS 채널을 직접 관리할 수 있는 운영 기반 마련</div><div class="result">기존 본사 중심의 마케팅 운영 방식을 현지 파트너 중심으로 전환하는 과정에 기여</div><div class="result">계정 및 접근 권한, 운영 절차를 인계해 계약 이후의 실무 연속성 지원</div></div>
-        </div>
-      </article>
-
-      <article class="project">
-        <div class="project-top"><span class="num">03</span><h3>신규 광고 채널 상품 데이터 연동 및 자동화</h3><span class="project-period">2023.03 — 2023.06</span></div>
-        <div class="project-meta"><span><b>구분</b> · 팀 프로젝트</span><span><b>기여도</b> · 70%</span><span><b>대상</b> · 국내 신규 광고 채널</span></div>
-        <div class="role-box"><b>담당 역할</b><span>데이터 규격 조사 · 생성형 AI를 활용한 코드 작성 · 직접 수정 및 검증 · 운영 인계</span></div>
-        <div class="project-copy">
-          <div><h4>PROJECT &amp; ACTION</h4><p>Criteo · 당근마켓의 광고 도입을 위해 자사몰 상품정보를 각 광고 플랫폼의 규격에 맞춰 전달하는 데이터 연동 체계를 구축했습니다.</p><ul><li>광고 플랫폼별 상품정보 규격 및 연동 방식 조사</li><li>생성형 AI를 활용해 Python 수집 프로그램 초안 작성, 직접 수정 · 검증</li><li>자사몰 상품명 · 가격 · 이미지 등의 정보 수집 및 가공</li><li>Google Sheets · Apps Script로 XML 데이터 생성 체계 구축</li><li>담당자에게 갱신 절차와 관리 방법 안내 및 인계</li></ul></div>
-          <div><h4>OUTCOME</h4><div class="result"><strong>1,000개 이상</strong><br>상품정보의 자동 수집 및 광고용 데이터 가공 체계 구축</div><div class="result">데이터 수집 · 가공 · XML 생성 및 업데이트로 이어지는 운영 기반 마련</div><div class="result">반복 작업을 담당자가 이어서 운영할 수 있도록 절차를 정리하고 인계</div><p style="font-size:12px;color:#728092;line-height:1.75;margin-top:12px">생성형 AI는 개발 보조 도구로 활용했습니다. AI 시스템 자체를 개발한 프로젝트는 아닙니다.</p></div>
-        </div>
-        <div class="workflow" aria-label="자동화 프로젝트 수행 흐름">
-          <div><b>STEP 01</b><span>규격 및 문제 파악</span></div><div><b>STEP 02</b><span>AI 활용 코드 초안</span></div><div><b>STEP 03</b><span>직접 수정 · 검증</span></div><div><b>STEP 04</b><span>적용 및 운영 인계</span></div>
-        </div>
-      </article>
-    </section>
-
-    <section class="section shell" id="markets">
-      <header class="section-head"><span class="index">03</span><h2>국가 · 채널별 운영 범위</h2></header>
-      <p class="section-intro">미국과 아시아의 주요 온라인 판매 채널을 직접 운영했습니다. 일본과 국내 신규 채널은 초기 구축 및 운영 지원 업무로 별도 구분했습니다.</p>
-      <div class="market-table" role="table" aria-label="국가별 온라인 판매 채널 및 운영 기간">
-        <div class="market-row is-head" role="row"><span>국가</span><span>플랫폼 · 담당 범위</span><span>운영 기간</span></div>
-        <div class="market-row" role="row"><span class="country">미국</span><span>Amazon · 광고 및 성과 관리</span><span class="period">2021.08 — 2025.04</span></div>
-        <div class="market-row" role="row"><span class="country">싱가포르</span><span>Shopee · Lazada</span><span class="period">2021.11 — 2025.04</span></div>
-        <div class="market-row" role="row"><span class="country">말레이시아</span><span>Shopee · Lazada</span><span class="period">2021.11 — 2025.06</span></div>
-        <div class="market-row" role="row"><span class="country">필리핀</span><span>Shopee · Lazada</span><span class="period">2022.04 — 2025.06</span></div>
-        <div class="market-row" role="row"><span class="country">대만</span><span>Shopee</span><span class="period">2022.05 — 2025.06</span></div>
-        <div class="market-row" role="row"><span class="country">베트남</span><span>Shopee · Lazada</span><span class="period">2023.02 — 2024.06</span></div>
-        <div class="market-row" role="row"><span class="country">태국</span><span>Shopee</span><span class="period">2024.04 — 2025.06</span></div>
-        <div class="market-row" role="row"><span class="country">인도네시아</span><span>Lazada</span><span class="period">2022.08 — 2023.09</span></div>
-      </div>
-      <p class="market-note">추가 업무: 일본 Qoo10 · Rakuten · Shopify 초기 구축 및 운영 지원 / 국내 Criteo · 당근마켓 광고 도입 지원 / Cafe24 · 카카오톡 연계 프로모션 실행 지원.</p>
-    </section>
-
-    <section class="section shell" id="skills">
-      <header class="section-head"><span class="index">04</span><h2>업무 도구 · 어학 · 학습</h2></header>
-      <div class="qualification-grid">
-        <div class="qualification"><h3>BUSINESS COMMUNICATION</h3><div class="item"><strong>TOEIC 845</strong><span>2026.01</span></div><div class="item"><strong>OPIc IH</strong><span>2026.01</span></div><div class="item"><strong>해외 실무 소통</strong><span>영문 회의 · 운영 이슈 대응</span></div></div>
-        <div class="qualification"><h3>TOOLS &amp; AUTOMATION</h3><div class="tool-list"><span>Google Sheets</span><span>Google Data Studio</span><span>Python</span><span>Apps Script</span><span>Microsoft Excel</span><span>Amazon Ads</span><span>Shopee · Lazada</span><span>Meta 광고</span></div><div class="cert-links"><a href="https://www.freecodecamp.org/certification/potatorious/python-v9" target="_blank" rel="noopener noreferrer">Python Certification <span>freeCodeCamp ↗</span></a><a href="https://www.freecodecamp.org/certification/potatorious/responsive-web-design-v9" target="_blank" rel="noopener noreferrer">Responsive Web Design Certification <span>freeCodeCamp ↗</span></a></div></div>
-      </div>
-    </section>
-  </main>
+<section class="hero shell intro" id="top">
+  <p class="eyebrow">01 / ABOUT · CAREER DESCRIPTION 2026</p>
+  <div class="applicant-row"><div><span>지원 회사</span><strong>kt is</strong><small>2026년 신입사원 채용</small></div><div><span>지원 직무</span><strong>마케팅</strong><small>영업/마케팅 부문</small></div></div>
+  <h1>MARKETING<br><em>EXPERIENCE.</em></h1>
+  <p class="hero-desc">판매 채널을 이해하고 데이터를 분석하며,<br>마케팅 운영과 개선을 담당해 왔습니다.</p>
+  <div class="intro-bio"><div><span>지원자</span><b>최동빈</b></div><div><span>최근 직장</span><b>㈜블랙홀릭 광고사업본부</b></div><div><span>담당 업무</span><b>글로벌 마케팅 · 2021.08 — 2025.11</b></div></div>
+  <div class="metric-grid">
+    <div class="metric"><span class="metric-label">CAREER</span><strong>4<small>년</small> 4<small>개월</small></strong><p>글로벌 마케팅 경력</p></div>
+    <div class="metric"><span class="metric-label">MARKETS</span><strong>8<small>개 시장</small></strong><p>미국 · 동남아시아 · 대만</p></div>
+    <div class="metric"><span class="metric-label">ASIA SALES</span><strong>104<small>배</small></strong><p>동남아시아 · 대만 연매출 규모 성장 기여</p></div>
+    <div class="metric"><span class="metric-label">US SALES</span><strong>17<small>배</small></strong><p>미국 Amazon 연매출 규모 성장 기여</p></div>
+  </div>
+  <p class="disclaimer">매출 성장 수치는 담당 판매 채널 기준입니다. 104배는 2021년 대비 2025년, 17배는 2021년 대비 2024년 연매출 규모 변화이며, 개인의 단독 성과를 의미하지 않습니다.</p>
+</section>
+<section class="section shell" id="career">
+  <header class="section-head"><span class="index">02</span><h2>경력사항</h2></header>
+  <div class="work-header"><div><span class="kicker">WORK EXPERIENCE</span><h3>㈜블랙홀릭 <small>광고사업본부</small></h3><p>사원 / 글로벌 마케팅</p></div><time>2021.08 — 2025.11 <small>4년 4개월</small></time></div>
+  <p class="work-desc">사내 첫 해외 마케팅 실무자로 미국 Amazon과 동남아시아 · 대만 Shopee · Lazada의 광고 운영 체계를 구축했습니다. 매출 · 광고비 · 판매량을 분석해 광고 예산과 운영 방식을 조정하고, SNS 고객 접점 관리 및 현지 플랫폼 담당자와의 영어 소통을 수행했습니다. 해외 B2B 계약 이후에는 협력사의 마케팅 환경 구축과 운영 이관을 지원했으며, 국내 신규 광고 채널과 판매 행사의 초기 구축 업무도 수행했습니다.</p>
+  <div class="work-summary"><article><span class="kicker">01</span><h4>글로벌 광고 운영</h4><p>미국과 아시아의 온라인 판매 채널 광고를 운영하고, 판매 데이터와 광고 성과를 분석해 예산과 광고 운영 방식을 개선했습니다.</p></article><article><span class="kicker">02</span><h4>고객 접점 · 콘텐츠</h4><p>SNS 계정을 운영하고 홍보 이미지 · 영상 · 문구를 제작 · 현지화했으며, 고객 반응에 맞춰 광고 콘텐츠를 수정했습니다.</p></article><article><span class="kicker">03</span><h4>B2B 협력사 업무 이관</h4><p>해외 계약 파트너의 광고 운영 환경을 구축하고, 계정 · 채널 권한 이관과 업무 절차 안내, 영문 회의 및 운영 조율을 담당했습니다.</p></article><article><span class="kicker">04</span><h4>국내 채널 구축 지원</h4><p>상품정보 연동 체계 구축, 국내 할인 행사 상품 등록과 이벤트 페이지 제작, 판매 성과 집계를 지원했습니다.</p></article></div>
+  <h3 class="subhead">국가 · 플랫폼별 운영 이력</h3>
+  <div class="market-table" role="table" aria-label="국가별 담당 채널과 운영기간"><div class="market-row is-head" role="row"><span>국가</span><span>플랫폼 및 역할</span><span>기간</span></div><div class="market-row" role="row"><span class="country">미국</span><span>Amazon</span><span class="period">2021.08 — 2025.04</span></div><div class="market-row" role="row"><span class="country">싱가포르</span><span>Shopee · Lazada</span><span class="period">2021.11 — 2025.04</span></div><div class="market-row" role="row"><span class="country">말레이시아</span><span>Shopee · Lazada</span><span class="period">2021.11 — 2025.06</span></div><div class="market-row" role="row"><span class="country">필리핀</span><span>Shopee · Lazada</span><span class="period">2022.04 — 2025.06</span></div><div class="market-row" role="row"><span class="country">대만</span><span>Shopee</span><span class="period">2022.05 — 2025.06</span></div><div class="market-row" role="row"><span class="country">베트남</span><span>Shopee · Lazada</span><span class="period">2023.02 — 2024.06</span></div><div class="market-row" role="row"><span class="country">태국</span><span>Shopee</span><span class="period">2024.04 — 2025.06</span></div><div class="market-row" role="row"><span class="country">인도네시아</span><span>Lazada</span><span class="period">2022.08 — 2023.09</span></div><div class="market-row" role="row"><span class="country">일본</span><span>Qoo10 · Rakuten · Shopify / 초기 구축 · 운영 지원</span><span class="period">2021.12 — 2025.06</span></div><div class="market-row" role="row"><span class="country">한국</span><span>Criteo · 당근마켓 / 신규 광고 도입 지원</span><span class="period">2023.03 — 2023.06</span></div><div class="market-row" role="row"><span class="country">한국</span><span>Cafe24 · 카카오톡 / 판매 행사 운영 지원</span><span class="period">2025.06 — 2025.10</span></div></div>
+  <p class="market-note">미국 · 아시아 8개 시장을 직접 운영했으며, 일본과 국내 채널은 초기 구축 또는 운영 지원 경험으로 구분했습니다.</p>
+</section>
+<section class="section shell details" id="details">
+  <header class="section-head"><span class="index">03</span><h2>경력기술서</h2></header>
+  <p class="section-intro">기본 이력서의 여섯 가지 주요 업무를 정리했습니다. 전문적인 광고 상품명보다 실제 수행한 역할과 업무 결과가 먼저 보이도록 작성했습니다.</p>
+  <article class="career-card">
+    <header class="career-title"><span class="career-no">01</span><div class="career-meta"><time>2021.11 — 2025.08</time><span>기여도 70%</span></div><h3>동남아시아 · 대만 온라인 판매 채널 광고 운영</h3></header>
+    <div class="role-box"><strong>담당 역할</strong><span>국가별 광고 운영 체계 구축, 업무 분배 및 행사별 예산 관리</span></div>
+    <div class="career-body two-col"><div><h4>주요 수행 업무</h4><ul><li>쇼피(Shopee) · 라자다(Lazada)의 검색광고, 상품광고 및 SNS 연계 광고 운영</li><li>광고 데이터를 분석해 효과적인 검색어와 광고 대상 상품을 발굴하고 성과가 확인된 광고 확대</li><li>국가 · 판매 채널 · 브랜드 · 상품별 매출, 광고비, 판매 수량 분석</li><li>성과에 따른 광고 예산과 광고 단가 조정 및 주요 할인 행사 광고 운영</li><li>Google Sheets와 데이터 시각화 도구를 이용해 일일 실적 집계 · 보고</li><li>영문 자료 조사 및 현지 플랫폼 담당자와 광고 정책 · 운영 문제 협의</li></ul></div><div><h4>주요 성과 및 결과</h4><ul><li>동남아시아 · 대만 판매 채널 연매출이 2021년 대비 2025년 약 104배 성장하는 과정에 기여</li><li>싱가포르 주요 할인 행사 메이크업 카테고리 매출 상위 5위 6회, 대만 상위 5위 달성에 기여</li></ul></div></div>
+  </article><article class="career-card">
+    <header class="career-title"><span class="career-no">02</span><div class="career-meta"><time>2021.08 — 2025.04</time><span>기여도 80%</span></div><h3>미국 Amazon 광고 운영 및 판매 성과 관리</h3></header>
+    <div class="role-box"><strong>담당 역할</strong><span>Amazon 광고 운영 체계 구축, 예산 배분 및 상품별 성과 관리</span></div>
+    <div class="career-body two-col"><div><h4>주요 수행 업무</h4><ul><li>Amazon 내 검색광고 · 상품광고 · 브랜드 홍보 광고 운영</li><li>브랜드 등록 이후 활용 가능한 광고 유형 확대 및 홍보 영상 번역 · 등록</li><li>구매 관심 고객을 다시 대상으로 하는 광고 운영</li><li>성과가 높은 검색어와 광고 대상 상품을 찾아 별도 캠페인으로 확대</li><li>브랜드 · 상품 · 검색어별 매출과 광고 효율 분석을 통한 예산 및 광고 단가 조정</li><li>외부 콘텐츠를 통한 방문과 구매 전환 측정</li><li>Prime Day · Black Friday 등 주요 할인 행사 광고 운영 및 일일 성과 보고</li></ul></div><div><h4>주요 성과 및 결과</h4><ul><li>미국 Amazon 판매 채널 연매출이 2021년 대비 2024년 약 17배 성장하는 과정에 기여</li></ul></div></div>
+  </article><article class="career-card">
+    <header class="career-title"><span class="career-no">03</span><div class="career-meta"><time>2021.08 — 2025.06</time><span>기여도 70%</span></div><h3>해외 홍보 콘텐츠 및 고객 접점 채널 운영</h3></header>
+    <div class="role-box"><strong>담당 역할</strong><span>국가별 콘텐츠 현지화, SNS 및 고객 안내 채널 운영</span></div>
+    <div class="career-body single-col"><div><h4>주요 수행 업무</h4><ul><li>영문 번역과 현지 시장에 맞춘 이미지 · 영상 홍보 콘텐츠 제작</li><li>Facebook · Instagram · X · YouTube 등 해외 SNS 계정 운영 및 관리</li><li>온라인 쇼핑몰 내 홍보 게시물, 할인 · 신상품 · 쿠폰 안내 메시지 운영</li><li>광고 소재별 클릭과 구매 반응을 분석해 이미지 · 영상 · 문구 수정 및 교체</li><li>국가 · 판매 채널별 광고 계정과 SNS 접근 권한 관리</li><li>현지 플랫폼 담당자와 정책 및 운영 관련 사항 영어로 협의</li></ul></div></div>
+  </article><article class="career-card">
+    <header class="career-title"><span class="career-no">04</span><div class="career-meta"><time>2024.03 — 2025.08</time><span>기여도 90%</span></div><h3>해외 B2B 협력사 마케팅 업무 구축 및 이관</h3></header>
+    <div class="role-box"><strong>담당 역할</strong><span>해외 협력사 광고 운영 환경 구축, 자산 · 권한 이관 및 실무 소통</span></div>
+    <div class="career-body two-col"><div><h4>주요 수행 업무</h4><ul><li>해외 B2B 계약 이후 현지 협력사의 광고 · SNS 운영 환경 구축 지원</li><li>기존 광고 계정 · SNS 페이지 등 마케팅 자산과 관리 권한 공유 및 이관</li><li>협력사 실무자에게 광고 시스템 사용 방법과 운영 절차 안내</li><li>본사와 협력사 간 요청사항, 일정과 운영 문제 조율</li><li>약 1시간 규모의 영어 정기회의 주관 및 업무 진행 상황 공유</li></ul></div><div><h4>주요 성과 및 결과</h4><ul><li>현지 협력사가 광고 및 SNS 채널을 직접 운영할 수 있도록 업무 전환 기반 마련</li></ul></div></div>
+  </article><article class="career-card">
+    <header class="career-title"><span class="career-no">05</span><div class="career-meta"><time>2023.03 — 2023.06</time><span>기여도 70%</span></div><h3>국내 신규 광고 채널 상품 데이터 연동 구축</h3></header>
+    <div class="role-box"><strong>담당 역할</strong><span>광고용 상품정보 규격 조사, 데이터 수집 · 가공 자동화 및 담당자 인계</span></div>
+    <div class="career-body two-col"><div><h4>주요 수행 업무</h4><ul><li>Criteo · 당근마켓의 상품 광고 도입에 필요한 데이터 규격과 연동 방식 조사</li><li>생성형 AI를 코드 작성 보조 도구로 활용해 Python 상품정보 수집 프로그램 제작 · 수정 · 검증</li><li>자사몰 상품정보와 상품 분류 기준을 정리해 광고용 데이터 구성</li><li>Google Sheets와 Apps Script로 상품정보를 가공하고 광고 플랫폼용 XML 파일 생성</li><li>상품정보 갱신 방법과 운영 절차를 담당자에게 인계</li></ul></div><div><h4>주요 성과 및 결과</h4><ul><li>국내 신규 광고 채널 도입을 위한 상품정보 수집 · 가공 · 갱신 체계 마련</li></ul></div></div>
+  </article><article class="career-card">
+    <header class="career-title"><span class="career-no">06</span><div class="career-meta"><time>2025.06 — 2025.10</time><span>기여도 50%</span></div><h3>Cafe24 · 카카오톡 연계 판매 행사 운영 지원</h3></header>
+    <div class="role-box"><strong>담당 역할</strong><span>행사 상품정보 정리, 쇼핑몰 상품 설정, 이벤트 페이지 제작 및 성과 집계</span></div>
+    <div class="career-body single-col"><div><h4>주요 수행 업무</h4><ul><li>Google Sheets로 행사별 상품정보 정리 및 이벤트 페이지용 데이터 관리</li><li>상품명 · 옵션 · 가격 · 할인율 · 이미지 · 판매 일정 관리</li><li>Cafe24 쇼핑몰의 상품 등록 및 가격 · 재고 · 창고 정보 설정</li><li>이벤트 페이지 제작 후 상품정보 · 가격 · 이미지 · 재고 · 노출 오류 검수</li><li>WebP 이미지를 GIF로 변환하는 프로그램 제작 및 홍보 소재 준비 지원</li><li>행사별 일일 판매 성과 집계 및 보고</li></ul></div></div>
+  </article>
+</section>
+<section class="section shell qualifications" id="skills">
+  <header class="section-head"><span class="index">04</span><h2>자격증 · 컴퓨터 활용능력</h2></header>
+  <p class="section-intro">kt is 지원서의 자격 · 기술 입력 내용을 기준으로 정리했습니다.</p>
+  <h3 class="subhead">freeCodeCamp 인증 자격</h3>
+  <div class="cert-grid">
+    <a href="https://www.freecodecamp.org/certification/potatorious/responsive-web-design-v9" class="cert-card" rel="noopener noreferrer" target="_blank"><span class="kicker">2026.07 / FREECODECAMP</span><h4>Responsive Web Design Certification</h4><p>웹페이지 구성 및 반응형 웹 디자인 학습 인증</p><span class="cert-arrow">↗</span></a>
+    <a href="https://www.freecodecamp.org/certification/potatorious/python-v9" class="cert-card" rel="noopener noreferrer" target="_blank"><span class="kicker">2026.07 / FREECODECAMP</span><h4>Python Certification</h4><p>Python 프로그래밍 및 문제 해결 학습 인증</p><span class="cert-arrow">↗</span></a>
+  </div>
+  <h3 class="subhead">컴퓨터 활용능력</h3>
+  <div class="software" role="table" aria-label="컴퓨터 활용능력과 지원서 기재 사용기간">
+    <div class="software-row software-head" role="row"><span>분류</span><span>사용 도구</span><span>사용기간</span></div>
+    <div class="software-row" role="row"><strong>OA · 데이터</strong><span>Google Sheets</span><span>4년</span></div><div class="software-row" role="row"><strong>OA · 데이터</strong><span>Google Apps Script</span><span>2년</span></div><div class="software-row" role="row"><strong>OA · 데이터</strong><span>Google Data Studio</span><span>—</span></div><div class="software-row" role="row"><strong>OA · 데이터</strong><span>Microsoft Excel</span><span>3년</span></div><div class="software-row" role="row"><strong>프로그래밍</strong><span>Microsoft VBA</span><span>2년</span></div><div class="software-row" role="row"><strong>프로그래밍</strong><span>HTML / CSS</span><span>2년</span></div><div class="software-row" role="row"><strong>프로그래밍</strong><span>Python</span><span>1년</span></div><div class="software-row" role="row"><strong>디자인</strong><span>Canva</span><span>3년</span></div><div class="software-row" role="row"><strong>디자인</strong><span>Adobe Photoshop</span><span>3년</span></div><div class="software-row" role="row"><strong>생성형 AI</strong><span>OpenAI ChatGPT</span><span>3년</span></div><div class="software-row" role="row"><strong>생성형 AI</strong><span>OpenAI Codex</span><span>1년</span></div><div class="software-row" role="row"><strong>생성형 AI</strong><span>Higgsfield AI</span><span>—</span></div>
+  </div>
+  <p class="market-note">‘—’ 표시는 첨부한 지원서에 사용기간이 입력되지 않은 항목입니다. 원본 지원서에서 활용 수준 선택값은 명확하게 판독되지 않아 별도로 표시하지 않았습니다.</p>
+</section></main>
   <footer class="shell footer-inner"><span>© 2026 최동빈 · Career Description for kt is Marketing</span><div><button class="print-button" type="button" onclick="window.print()">인쇄 · PDF 저장 ↗</button> <a href="#top">맨 위로 ↑</a></div></footer>
   <script>
     (function(){
